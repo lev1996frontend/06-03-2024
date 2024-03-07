@@ -4,7 +4,7 @@
 
 .page {
   width: 1280px;
-  font-family: Inter, Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   margin: 0 auto;
   min-height: 100px;
 }
@@ -17,146 +17,54 @@
   width: 22px;
   height: 22px;
   border-radius: 100%;
-  background-color: #5076FF;
+  background-color: #5076ff;
 }
 
 .content {
-
 }
 
 .cover {
-  padding: 68px 90px 160px;
+  padding: 66px 90px 160px;
   background-image: url(../images/cover-image.png);
   background-repeat: no-repeat;
-  background-position:  100% 28px;
+  background-position: 100% 25px;
 }
 
 .cover__title {
-  font-weight: 500;
   font-size: 110px;
+  font-weight: 500;
   line-height: 100%;
   max-width: 380px;
-  letter-spacing: -0.04em;
   margin: 0 0 90px;
+  letter-spacing: -0.04em;
 }
 
 .cover__subtitle {
   font-weight: 400;
   font-size: 19px;
   line-height: 25px;
-  letter-spacing: -0.04em;
-  color: #ACACAC;
+  color: #acacac;
   max-width: 214px;
+  letter-spacing: -0.04em;
   margin: 0;
 }
 
 .cover__link {
-  color: #5076FF;
+  color: #5076ff;
   text-decoration: none;
 }
 
-
 .description {
   padding: 90px 90px 70px 90px;
-  background-color: #202020;
   border-top-left-radius: 28px;
   border-top-right-radius: 28px;
 }
 
-
-.description__list {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 20px;
-}
-
-
-.card {
-  border-radius: 20px;
-  color: #202020;
-  width: 260px;
-  padding: 50px 46px 46px 46px;
-  background: #FFF;
-  text-align: center;
-}
-
-.card__image {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  object-position: center;
-  margin-bottom: 38px;
-}
-
-.card__title {
-  margin: 0 0 20px;
-  font-size: 22px;
-  letter-spacing: -0.03em;
-}
-
-.card__title_roated {
-  transform: rotate(90deg);
-}
-
-.card__text {
-  margin: 0;
-  font-size: 13px;
-  line-height: 17px;
-}
-
-
-.footer {
-  padding: 20px 0;
-  background-color: #202020; 
-}
-
-.footer__text {
-  margin: 0;
-  font-size: 14px;
-  line-height: 18px;
-  color: #FFFFFF;
-  text-align: center;
-}
-
-.title {
+.description__title {
   font-weight: 500;
-  letter-spacing: -0.03em;
   margin: 0 0 60px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   font-size: 40px;
-}
-
-/* 
-   block - независимая от всего сайта часть (header, footer, page)
-   element - составная часть блока, зависит от блока и не может существовать за пределами своего блока
-
-  blocks
-   header
-   my-header
-
-  elements
-   block__element
-   header__logo
-
-   modifier
-   block_modifier
-   block__element_modifier
-
-*/
-
-
-.button {
-  background: pink;
-  padding: 20px;
-  font-size: 20px;
-  color: black;
-  text-align: center;;
-}
-
-.button_disabled {
-  cursor: not-allowed;
-  opacity: .3;
+  letter-spacing: -0.03em;
 }
