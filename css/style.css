@@ -56,6 +56,7 @@
 
 .description {
   padding: 90px 90px 70px 90px;
+  background-color: #202020;
   border-top-left-radius: 28px;
   border-top-right-radius: 28px;
 }
@@ -68,3 +69,71 @@
   font-size: 40px;
   letter-spacing: -0.03em;
 }
+
+.description__list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border-radius: 20px;
+  color: #202020;
+  width: 260px;
+  padding: 50px 46px 46px 46px;
+  background: #fff;
+  text-align: center;
+}
+
+.card__image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 40px;
+}
+
+.card__title {
+  margin: 0 0 20px;
+  font-size: 22px;
+  letter-spacing: -0.03em;
+}
+
+.card__text {
+  margin: 0;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #202020;
+}
+
+.footer__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* 
+   block - независимая от всего сайта часть (header, footer, page)
+   element - составная часть блока, зависит от блока и не может существовать за пределами своего блока
+
+  blocks
+   header
+   my-header
+
+  elements
+   block__element
+   header__logo
+
+   modifier
+   block_modifier
+   block__element_modifier
+
+*/
